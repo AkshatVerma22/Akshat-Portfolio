@@ -598,7 +598,7 @@ const About = () => {
           </CardBody>
           <Divider />
           <CardFooter>
-            <a href={gdsc} download={gdsc}>
+            <a >
             <button className="button" type="button" >
               <span className="button__text" >Download Resume</span>
               <span className="button__icon">
