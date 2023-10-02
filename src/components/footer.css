@@ -1,0 +1,62 @@
+.footer{
+    margin: 40px auto 0px auto;
+    align-items: center;
+    width: 95%;
+}
+
+.footer h4{
+    width: 100%;
+    padding: 20px;
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    /* margin:20px 0px 0px 0px; */
+}
+
+.marquee {
+    width: 100%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    /* position: fixed; */
+    /* margin-top: 100px; */
+    
+    
+  }
+  .marquee:hover .marquee__item {
+    animation-play-state: paused;
+   
+  }
+  .marquee__seperator {
+    margin: 0 2rem;
+  }
+  .marquee__item {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+   
+    font-family: 'Bowlby One SC', cursive;
+  
+  }
+
+  
+
+  .marquee {
+    background-color: rgba(29, 29, 29, 0.226);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(24, 254, 135, 0.393);
+    color: #fff;
+  }
+  
+  h2 .icons{
+    margin:7px;
+  }
+
+  .brands {
+    width: 100%;
+   text-align: center;
+   font-family: Gruppo;
+   font-size: 15px;
+   /* justify-content: center; */
+   /* margin: auto; */
+  }

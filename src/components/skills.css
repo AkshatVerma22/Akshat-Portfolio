@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Gruppo&family=Orbitron&display=swap');
+
+.skills {
+    /* background-color: #0b02029d; */
+    border-radius: 15px;
+    /* box-shadow: 10px 10px 20px #100202a8, */
+                /* -10px -10px 20px #0901018b; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding: 30px;
+    border: 2px dotted aqua;
+    margin: 60px auto 20px ;
+    width: 35%;
+    background-color: #00000075;
+    backdrop-filter: blur;
+  
+}
+
+
+  ul{
+   list-style: none;
+   flex-wrap: wrap;
+   width: 100%;
+   /* background-color: #1c1a1a; */
+  }
+
+  .skills ul li{
+    /* color: rgb(255, 255, 255); */
+    margin: auto;
+    
+  }
+
+  .skills i{
+    color:rgb(255, 248, 248) ;
+    margin:4px;
+    font-size:15px
+  }
+
+  .skills h2{
+    /* transform: rotate(-90deg); */
+    font-size: 20px;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    color: White;
+    border-bottom: 1px solid rgb(24, 255, 193);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    margin:10px  auto 40px ;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .btn {
+    background-color: #00000000;
+    border: 1px solid white;
+    border-radius: 25px;
+    /* box-shadow: inset 5px 5px 5px #000000c6, */
+                /* inset -5px -5px 5px #00000057; */
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 7px;
+    padding: 6px;
+    text-transform: uppercase;
+    position:inline;
+    width: fit-content;
+  }
+  
+  .btn:hover {
+    box-shadow: none;
+  }
+  
+ 
+  
+  .skills .Explore {
+    color: #e0e0e0;
+  }
+  
+  .skills .Explore:hover {
+    background-color: #ff4f0a;
+    color: #e4e4e4;
+  }
+  
+
+  
+ 
+  
+  .skills .Post {
+    color: #ffffff;
+  }
+  
+  .skills .Post:hover {
+    background-color: #0a00c6;
+    color: #e4e4e4;
+  }
+  
+  .skills .Post svg {
+    fill: #333;
+  }
+  
+  .skills .Post:hover svg {
+    fill: #e4e4e4;
+  }
+  
+  .skills .Chat {
+    color: #ffffff;
+  }
+  
+  .skills .Chat:hover {
+    background-color: #fffb00c4;
+    color: #e4e4e4;
+  }
+  
+ .skills .React{
+  color: white;
+}
+
+.skills .React:hover{
+  background-color: rgb(0, 151, 151);
+}
+  
+.skills .Node{
+  color: white;
+}
+
+.skills .Node:hover{
+  background-color: rgb(5, 151, 0);
+}
+
+.skills .Bs:hover{
+  background-color: rgb(54, 15, 85);
+}
+
+.skills .MUI:hover{
+  background-color: rgb(255, 36, 72);
+} 
+
+.skills .CUI:hover{
+  background-color: rgb(0, 156, 143);
+} 
+
+.skills .Cpp:hover{
+     background-color: rgba(43, 43, 252, 0.856);
+}
+
+  @media (width <= 740px) {
+
+    .skills{
+        margin:40px 20px 0px 20px;
+        padding: 40px;
+        display: flex;
+      width: fit-content;
+       flex-wrap: wrap;
+       /* padding: 30px; */
+    }
+
+
+
+    .skills h2{
+        font-size: 20px;
+    }
+
+  
+
+   .skills ul{
+   
+    width: 100%;
+   
+   }
+
+   .skills .btn{
+    width: fit-content;
+   }
+
+  }
+  
+.const{
+  color: #61afef;
+  font-weight: bolder;
+  
+}
+
+.aboutMe{
+  color:#dcdcaa ;
+  font-weight: bolder;
+}
+
+.pink{
+  color:#c678dd;
+  font-weight: bolder;
+}

@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Gruppo&family=Orbitron&family=Syncopate:wght@700&display=swap');
+
+
+body{
+  overflow-x: hidden;
+  
+}
+
+h1{
+    font-size: 50px;
+    /* width:100%;  */
+
+width: 100%;
+background: -webkit-linear-gradient(#715eff, #20ff88);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Black Ops One', cursive;
+margin-bottom: 25px;
+  /* text-align:center;  */
+
+  border-bottom: 1px dotted rgb(255, 255, 255);
+
+}
+
+
+
+.about{
+  width: 70%;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.4) 1px, 
+    transparent 1px
+  );
+  /* background-position: 50% 50%; */
+  background-size: 1.1rem 1.1rem;
+}
+
+.box{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+
+p{
+  font-family: 'Gruppo', sans-serif;
+  font-size: 15px;
+  width: 70%;
+  font-weight: 300;
+}
+
+
+  
+
+  @media (width <= 740px) {
+    h1{
+      font-size:30.5px;
+      /* margin-left: 10px;     */
+      width: 100%;
+  
+  }
+  
+  .about {
+    /* position: absolute; */
+    width: 180%;
+    /* height: calc(var(--total) * 5px); */
+    /* overflow-x: hidden; */
+    margin-right: 30%;
+   
+  
+  }
+
+ 
+
+  .about p{
+    width: 100%;
+    display: flex;
+    
+  }
+  }
+
+  
+  .code-editor {
+    width: 50%;
+    background-color: hsla(0, 0%, 15%, 0.361);
+    box-shadow: inset 5px 5px 5px #000000,
+    inset 5px -5px 5px #00000089;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 40px ;
+    height:fit-content
+    
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: rgb(212 212 212);
+  }
+  
+  .icon {
+    width: 20px;
+    transition: .2s ease;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #6e7281;
+  }
+  
+  .editor-content {
+    margin: 0 10px 10px;
+    color: white;
+  }
+  
+  .property {
+    margin-left: 30px;
+  }
+  
+  .property:hover {
+    cursor: text;
+  }
+  
+  .editor-content .color-0 {
+    color: rgb(86 156 214);
+  }
+  
+  .editor-content .color-1 {
+    color: rgb(182 206 168);
+  }
+  
+  .editor-content .color-2 {
+    color: rgb(156 220 254);
+  }
+  
+  .editor-content .color-3 {
+    color: rgb(207 146 120);
+  }
+  
+  .color-preview-1,.color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  .color-preview-1 {
+    background-color: #1d1e22;
+  }
+  
+  .color-preview-1 {
+    background-color: #00000080;
+  }
+
+
+  .work{
+    width: 30%;
+    margin: 40px;
+  
+    
+  }
+  @media (width <= 740px) {
+
+    .code-editor {
+        margin-top: 0px;
+        width: 100%;
+      
+       
+    }
+
+    .work{
+      width: 100%;
+      background-color: #3e3d3d90;
+    }
+    .clubs{
+      width: 100%;
+    }
+
+    .contri{
+      width: 100%;
+    }
+  }
+
+  .Work ul li{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .clubs {
+    
+    padding: 10px;
+   
+   
+  }
+
+  .clubs p{
+    font-size: 12px;
+    margin:0px 0px 0px 0px;
+    padding: 10px;
+    
+  }
+
+  .club-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px
+  }
+
+  .club-info p{
+    margin: auto 20px auto 18px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .club-name{
+    margin: -5px 0px 0px 50px;
+     font-size: 12px ;
+     color: white;
+  }
+
+  .club-date{
+    width: fit-content;
+    margin: 0px 0px 0px 50px;
+    font-size: 10px;
+    color: #909090;
+    font-weight: bold;
+  }
+
+ .tech-stack{
+    font-size:10px ;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+   
+   
+  }
+
+  .logo{
+    background-color: #333436;
+    
+  }
+
+
+
+  .button {
+    position: relative;
+    width: 147px;
+   border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  
+    background-color: rgba(0, 0, 0, 0.34);
+    overflow: hidden;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    /* transform: translateX(22px); */
+    color: #fff;
+    /* font-weight: 600; */
+    font-size: 12px;
+    /* padding: 20px; */
+    text-align: center;
+    margin: 5px;
+   
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #000000a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button .svg {
+    width: 16px;
+    fill: #fff;
+  }
+  
+  .button:hover {
+    background: #000000c5;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: #66e6ef;
+  }
+  
+  .button:active {
+    border: 1px solid #146c54;
+  }
+  
+ 
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  html,body{
+    height:100%;
+  }
+  .app{
+  background: -webkit-linear-gradient(to left, #091013, #030b0e, #0F2027); 
+  background: linear-gradient(to left, #03010e, #11011b, #080134);
+  height:100vh;
+  width:100%;
+  position: absolute;
+  z-index: -1;
+  position: fixed;
+  filter: blur(5px);
+  }
+  .app ul{
+    display:block;
+    width:100%;
+    height:inherit;
+  }
+ .app ul{
+    list-style-type:none;
+  }
+  .app ul li:nth-child(1)
+  {
+    position:absolute;
+    left:10%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+  }
+  .app ul li:nth-child(2)
+  {
+    position:absolute;
+    left:30%;
+    height:45px;
+    width:45px;
+    background:rgba(255,255,255,.2);
+  }
+  .app ul li:nth-child(3)
+  {
+    position:absolute;
+    left:50%;
+    height:70px;
+    width:70px;
+    background:rgba(255,255,255,.2);
+  }
+  .app ul li:nth-child(4)
+  {
+    position:absolute;
+    left:80%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+  }
+  .app ul li{
+    animation:animate 15s linear 1s infinite;
+  }
+  
+  @keyframes animate{
+    from{
+      transform: translateY(+1500%) rotate(180deg)
+    }
+    to{
+      transform: translateY(-150%)
+        rotate(360deg)
+    }
+  }
+
+  

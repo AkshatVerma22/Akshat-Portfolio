@@ -1,0 +1,243 @@
+.project{
+    padding: 10px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #1212127a;
+    box-shadow: inset 5px 5px 5px #000000,
+    inset 5px -5px 5px #00000089;
+    border: 1px solid aqua;
+    
+               
+    transition: 0.4s;
+    margin: 40px;
+    /* border: 1px dotted #b2eccf; */
+
+  }
+  
+  .project:hover {
+    translate: 0 -10px;
+    background-color: #020202b6;
+  }
+  
+  .card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2ff9a1;
+    margin: 15px 0 0 10px;
+    font-family:   'Orbitron', sans-serif;
+  }
+  
+  .card-image {
+    height: 170px;
+    
+    border-radius: 15px;
+    background: #313131;
+   
+   
+    
+  }
+
+  .card-image img{
+    height: 170px;
+    border-radius: 15px;
+   
+  
+  }
+  
+  .card-body {
+    margin: 13px 0 0 10px;
+    color: rgb(184, 184, 184);
+    font-size: 15px;
+  }
+  
+  .foot {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 13px;
+    color: #b3b3b3;
+  }
+  
+  .by-name {
+    font-weight: 700;
+  }
+
+  .visit {
+    --color: #00A97F;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 11px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin: 20px 0px 10px 0px;
+   }
+   
+   .visit::before, .visit::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 3s ease;
+   }
+   
+   .visit::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .visit::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .visit:hover::before, .visit:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .visit:hover {
+    color: rgb(255, 255, 255);
+    border-color: #00A97F;
+   }
+   
+   .visit:active {
+    filter: brightness(.8);
+   }
+   
+   .project .tech-stack{
+    border-radius: 20px;
+   }
+
+   .experience {
+    
+    /* height: 254px; */
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    /* overflow: visible; */
+   margin: 10px;
+    width: 50%;
+  
+    /* margin-right: 40px; */
+    
+   }
+   
+   .experience .item {
+    border-radius: 10px;
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .item:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+   }
+   
+   .item svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 7px;
+   }
+   
+   .item--1 {
+    background: #33333375;
+    border: 1px solid white;
+   }
+   
+   .item--2 {
+    background: #7061ff91;
+    border: 1px solid white;
+   }
+   
+   .item--3 {
+    background: #02ff7053;
+    border: 1px solid;
+   }
+   
+   .item--4 {
+    background: #696969c5;
+    border: 1px solid;
+   }
+   
+   .quantity {
+    font-size: 25px;
+    font-weight: 600;
+   }
+   
+   .text {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+   }
+   
+   .text--1 {
+    color: rgba(149,149,255,1);
+   }
+   
+   .text--2 {
+    color: rgba(252,161,71,1);
+   }
+   
+   .text--3 {
+    color: rgb(225, 254, 36);
+   }
+   
+   .text--4 {
+    color: rgb(57, 248, 255);
+   }
+
+   @media (width <= 740px) {
+
+    .experience {
+    
+      /* height: 254px; */
+      color: white;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     /* margin: -20px; */
+     
+      /* overflow: visible; */
+   
+      
+    
+      /* margin-right: 40px; */
+      
+     }
+
+     .experience .item {
+      border-radius: 10px;
+      /* width: 100%; */
+      /* height: 100%; */
+      display: flex;
+      flex-direction: column;
+  
+      /* padding: 10px; */
+      
+     }
+
+     .quantity{
+      font-size: 20px;
+     }
+
+   }
