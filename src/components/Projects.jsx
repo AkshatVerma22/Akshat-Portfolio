@@ -1,4 +1,6 @@
 import React from "react";
+import  { useState } from "react";
+
 import "./projects.css";
 import "./About.css";
 import { Tag, Box, Spacer,Image } from "@chakra-ui/react";
@@ -31,16 +33,32 @@ const Card = ({
   tag10,
   id,
 }) => {
+  const [showFullDescription, setShowFullDescription] = useState(false)
   return (
     <>
       <div className="project">
-        <div className="card-image">
-          <img src={img} alt="" style={{ width: "100%" }} />
-        </div>
-        <p className="card-title">{title}</p>
+      <div className="card-image">
+        <img src={img} alt="" style={{ width: "100%" }} />
+      </div>
+      <p className="card-title">{title}</p>
+      {showFullDescription ? (
         <p className="card-body">{body}</p>
+      ) : (
+        <p className="card-body">
+          {body.substring(0, 100)}...{" "}
+          <button  onClick={() => setShowFullDescription(true)}> <br /><button className="learn-more">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.6" stroke="currentColor" className="arrow">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+  </svg>
+  <div className="read-more">
+Read More
+  </div>
+</button>
+</button>
+        </p>
+      )}
 
-        <Tag
+<Tag
           fontSize={"10px"}
           className="tech-stack"
           color={"orange"}
