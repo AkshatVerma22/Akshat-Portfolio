@@ -361,12 +361,12 @@
       .dropdown-menu{
         width: 90%;
         margin: 0px 10px 0px 10px;
-        height: 60%;
+        height: 50%;
         
       }
 
       .navigation__link-1{
-        font-size: 4rem;
+        font-size: 2.5rem;
       }
 
       .navigation{
