@@ -359,9 +359,9 @@
     @media (width <= 740px) {
      
       .dropdown-menu{
-        width: 90%;
-        margin: 0px 10px 0px 10px;
-        height: 50%;
+        width: fit-content;
+        /* margin: 0px 10px 0px 10px; */
+        height: fit-content;
         
       }
 
@@ -386,24 +386,26 @@
     
     }
 
-    @media screen and (min-width: 481px) and (max-width: 768px){
+    @media (width > 740px)  {
       .dropdown-menu{
-        width: 100%;
+        width: fit-content;
+        margin: 0px 10px 0px 10px;
         height: fit-content;
         
+      }
+
+      .navigation{
+        margin:0px 0px 10px 0px;
       }
 
       
-  
+    .nav-social a i{
+      margin: 20px;
+      font-size: 40px;
+      color: rgb(255, 255, 255);
     }
 
-    @media (width: 1280px) {
 
-      .dropdown-menu{
-        width: 50%;
-        height: fit-content;
-        
-      }
     }
 
     .nav-social a i{
