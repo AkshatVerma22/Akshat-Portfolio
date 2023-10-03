@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Gruppo&family=Orbitron&family=Syncopate:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Gruppo&family=Orbitron&family=Poppins:wght@200&family=Syncopate:wght@700&display=swap');
 
 
 body{
@@ -45,7 +45,7 @@ margin-bottom: 25px;
 
 
 p{
-  font-family: 'Gruppo', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   width: 70%;
   font-weight: 300;
@@ -77,6 +77,7 @@ p{
   .about p{
     width: 100%;
     display: flex;
+   
     
   }
   }
@@ -90,8 +91,14 @@ p{
     border-radius: 8px;
     padding: 2px;
     margin: 40px ;
-    height:fit-content
+    height:fit-content;
     
+    
+  }
+
+  .code-editor .code p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .header {
@@ -123,6 +130,7 @@ p{
   .editor-content {
     margin: 0 10px 10px;
     color: white;
+    
   }
   
   .property {
