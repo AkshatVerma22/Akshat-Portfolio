@@ -63,73 +63,74 @@ const Header = () => {
 
   
       
-        <marquee behavior="scroll" direction="left" className='marquee'>
+<marquee behavior="scroll" direction="left" className='marquee'>
                
               
 
-          <div className="marquee__item">
-            Akshat Verma
-            <span className="marquee__seperator">•</span>
-            <i
-                  className="fa-brands fa-html5 fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-
-            <span className="marquee__seperator">•</span>
-            Student
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-css3-alt fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-            <span className="marquee__seperator">•</span>
-           Developer
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-js fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-            <span className="marquee__seperator">•</span>
-            Tech-Enthusiast
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-react fa-spin"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
+               <div className="marquee__item" >
+                 Software Developer
                  <span className="marquee__seperator">•</span>
-          </div>
-          <div className="marquee__item">
-            Akshat Verma
-            <span className="marquee__seperator">•</span>
-            <i
-                  className="fa-brands fa-html5 fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-
-            <span className="marquee__seperator">•</span>
-            Student
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-css3-alt fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-            <span className="marquee__seperator">•</span>
-           Developer
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-js fa-beat"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
-            <span className="marquee__seperator">•</span>
-            Tech-Enthusiast
-            <span className="marquee__seperator">•</span>
-            <i
-                  class="fa-brands fa-react fa-spin"
-                  style={{ color: "white", margin: "4px", fontSize: "25px" }}
-                ></i>
+                 <i
+                       className="fa-brands fa-html5 fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }} 
+                     ></i>
+     
                  <span className="marquee__seperator">•</span>
-          </div>
-          </marquee>
+                 Student
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-css3-alt fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                 <span className="marquee__seperator">•</span>
+                Web-Developer
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-js fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                 <span className="marquee__seperator">•</span>
+                 Tech-Enthusiast
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-react fa-spin"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                      <span className="marquee__seperator">•</span>
+               </div>
+               <div className="marquee__item">
+                 Software Developer
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       className="fa-brands fa-html5 fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+     
+                 <span className="marquee__seperator">•</span>
+                 Student
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-css3-alt fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                 <span className="marquee__seperator">•</span>
+                Web-Developer
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-js fa-beat"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                 <span className="marquee__seperator">•</span>
+                 Tech-Enthusiast
+                 <span className="marquee__seperator">•</span>
+                 <i
+                       class="fa-brands fa-react fa-spin"
+                       style={{ color: "white", margin: "4px", fontSize: "25px" }}
+                     ></i>
+                      <span className="marquee__seperator">•</span>
+               </div>
+               </marquee>
+
 
    
     </>
