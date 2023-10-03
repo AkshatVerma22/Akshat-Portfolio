@@ -62,7 +62,7 @@ const About = () => {
                 fill="transparent"
               />
               <text>
-                <textPath xlinkHref="#circlePath">
+                <textPath xlinkHref="#circlePath" fontWeight={'bold'}>
                   . Akshat Verma . Student . Developer .
                 </textPath>
               </text>
@@ -121,14 +121,15 @@ const About = () => {
                 <span className="pink">[ </span> <br />
                 <span>
                   <span className="pink">return (</span> <br />
+                  <span >
                   Hello,I am Akshat Verma. As you must have guessed it already,
-                  I am a CSE core student at VIT-Chennai and a Web-developer. I
-                  specialize in the frontend development, primarily HTML, CSS,
-                  JS, ReactJs and few UI tools but i love building with whatever
+                  I am a <span className="aboutMe" style={{fontWeight:'bold'}}> CSE core </span> student at VIT-Chennai and a Web-developer. I
+                  specialize in the frontend development, primarily <span className="aboutMe" style={{fontWeight:'bold'}}> HTML, CSS,
+                  JS, ReactJs and few UI tools </span> but i love building with whatever
                   tools are right for the job. <br /> <br />
-                  Apart from development, I am a tech enthusiast, active
+                  Apart from development, I am a <span className="aboutMe" style={{fontWeight:'bold'}}>tech enthusiast, active
                   volunteer, event manager, athelete, football player, rapper,
-                  hodophile and a semi-pro gamer! <br />
+                  hodophile and a semi-pro gamer! </span>  <br /> </span>
                   <br />
                   If you are interested in learning more about my skills, work experience, educational background, projects, and contact information, you can find it all here. Thank you for taking the time to get to know me better.
                   <br />
@@ -596,27 +597,8 @@ const About = () => {
               </div>
             </ul>
           </CardBody>
-          <Divider />
-          <CardFooter>
-            <a >
-            <button className="button" type="button" >
-              <span className="button__text" >Download Resume</span>
-              <span className="button__icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 35 35"
-                  id="bdd05811-e15d-428c-bb53-8661459f9307"
-                  data-name="Layer 2"
-                  className="svg"
-                >
-                  <path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z" />
-                  <path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z" />
-                  <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z" />
-                </svg>
-              </span>
-            </button>
-            </a>
-          </CardFooter>
+         
+          
         </Card>
       </div>
       <div  style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
@@ -745,6 +727,12 @@ const About = () => {
               </button>
             </li>
             <li>
+              <button className="btn Chat">
+              <i class="fa-solid fa-code"></i>
+                <h3>Data Structures & Algorithms</h3>
+              </button>
+            </li>
+            <li>
               {" "}
               <button className="btn Cpp " style={{ padding: "10px" }}>
                 <GrMysql
@@ -777,6 +765,12 @@ const About = () => {
                 Computer Networks
               </button>
             </li>
+            <li>
+              <button className="btn MUI">
+              <i class="fa-solid fa-circle-nodes"></i>
+                <h3>Blockchain</h3>
+              </button>
+            </li>
           </ul>
         </div>
         <div className="skills">
@@ -802,7 +796,7 @@ const About = () => {
             <br />
             <li>
               {" "}
-              <button className="btn React">Event Managment</button>
+              <button className="btn React">Event Management</button>
             </li>
           </ul>
         </div>
