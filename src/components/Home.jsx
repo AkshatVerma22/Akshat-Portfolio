@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
      <div className="card ">
-        <img src={pfp} style={{width:'fit-content',height:'fit-content'}}/>
+        <img src={pfp} style={{width:'fit-content'}}/>
         <div>
           <h2>Akshat Verma</h2>
           <h3 style={{ color: "white", padding: "10px", fontFamily:'Gruppo',fontWeight:'bold' }}>
