@@ -42,7 +42,7 @@
     .card img {
       max-width: 250px;
       width: 28vw;
-      height: fit-content;
+    
       object-fit: cover;
       margin-left: -60px;
       margin-right: 30px;
