@@ -118,7 +118,7 @@ const About = () => {
                 <span className="aboutMe"> aboutMe</span> ={" "}
                 <span className="pink">( ) </span>{" "}
                 <span className="const">=></span>{" "}
-                <span className="pink">[ </span> <br />
+                <span className="pink"> &#123; </span> <br />
                 <span>
                   <span className="pink">return (</span> <br />
                   <span >
@@ -133,7 +133,7 @@ const About = () => {
                   <br />
                   If you are interested in learning more about my skills, work experience, educational background, projects, and contact information, you can find it all here. Thank you for taking the time to get to know me better.
                   <br />
-                  <span className="pink">) ] </span>
+                  <span className="pink">) &#125; </span>
                 </span>
                 <br />
                 <span className="aboutMe">aboutMe</span>
